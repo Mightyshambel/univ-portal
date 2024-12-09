@@ -52,29 +52,6 @@ ng build
 # Builds will be stored in the dist/ directory
 ```
 
-## Project Structure
-```
-univ-portal/
-├── src/
-│   ├── app/
-│   │   ├── components/
-│   │   ├── services/
-│   │   ├── models/
-│   │   └── shared/
-│   ├── assets/
-│   ├── environments/
-│   └── styles/
-├── angular.json
-├── tsconfig.json
-└── package.json
-```
-
-## Key Components
-- `StudentProfileComponent`: Manage student details
-- `UniversityListComponent`: Browse available universities
-- `ApplicationTrackerComponent`: Track application status
-- `DocumentUploadComponent`: Manage application documents
-
 ## Testing
 
 ### Unit Tests
@@ -85,13 +62,6 @@ ng test
 ### End-to-End Tests
 ```bash
 ng e2e
-```
-
-## Deployment
-- Firebase Hosting
-- Netlify
-- Vercel
-- GitHub Pages
 
 ## Contributing
 1. Fork the repository
@@ -100,19 +70,10 @@ ng e2e
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## Future Roadmap
-- [ ] Implement AI-powered university recommendations
-- [ ] Add internationalization support
-- [ ] Develop mobile responsive design
-- [ ] Integrate payment gateway for application fees
-
-## License
-Distributed under the MIT License. See `LICENSE` for more information.
-
 ## Contact
-Your Name - your.email@example.com
+Mighty Shambel - shambelmighty51@gmail.com
 
-Project Link: [https://github.com/your-username/UnivPortal](https://github.com/your-username/UnivPortal)
+Project Link: [https://github.com/mighty-shambel/UnivPortal]
 
 ---
 

@@ -1,27 +1,120 @@
-# UnivPortal
+# UnivPortal 🌍📚
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.1.2.
+## Overview
+UnivPortal is a comprehensive web application designed to simplify the international university application process. It provides students with a centralized platform to explore, apply, and manage their study abroad applications across multiple universities.
 
-## Development server
+## Features
+- 🎓 Student Profile Management
+- 🌐 University Exploration
+- 📝 Application Tracking
+- 💼 Document Upload and Management
+- 🔔 Notification System
+- 📊 Application Status Tracking
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Technologies Used
+- Angular 18.1.2
+- TypeScript
+- SCSS
+- RxJS
+- Angular Material (Optional)
 
-## Code scaffolding
+## Prerequisites
+- Node.js (16+ recommended)
+- Angular CLI 18.1.2
+- npm or yarn package manager
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Installation
 
-## Build
+### 1. Clone the Repository
+```bash
+git clone https://github.com/your-username/UnivPortal.git
+cd UnivPortal
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### 2. Install Dependencies
+```bash
+npm install
+# or
+yarn install
+```
 
-## Running unit tests
+## Development Server
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Start Development Server
+```bash
+ng serve
+# Navigate to http://localhost:4200/
+```
 
-## Running end-to-end tests
+### Build for Production
+```bash
+ng build
+# Builds will be stored in the dist/ directory
+```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Project Structure
+```
+univ-portal/
+├── src/
+│   ├── app/
+│   │   ├── components/
+│   │   ├── services/
+│   │   ├── models/
+│   │   └── shared/
+│   ├── assets/
+│   ├── environments/
+│   └── styles/
+├── angular.json
+├── tsconfig.json
+└── package.json
+```
 
-## Further help
+## Key Components
+- `StudentProfileComponent`: Manage student details
+- `UniversityListComponent`: Browse available universities
+- `ApplicationTrackerComponent`: Track application status
+- `DocumentUploadComponent`: Manage application documents
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## Testing
+
+### Unit Tests
+```bash
+ng test
+```
+
+### End-to-End Tests
+```bash
+ng e2e
+```
+
+## Deployment
+- Firebase Hosting
+- Netlify
+- Vercel
+- GitHub Pages
+
+## Contributing
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## Future Roadmap
+- [ ] Implement AI-powered university recommendations
+- [ ] Add internationalization support
+- [ ] Develop mobile responsive design
+- [ ] Integrate payment gateway for application fees
+
+## License
+Distributed under the MIT License. See `LICENSE` for more information.
+
+## Contact
+Your Name - your.email@example.com
+
+Project Link: [https://github.com/your-username/UnivPortal](https://github.com/your-username/UnivPortal)
+
+---
+
+### Disclaimer
+This project is a student-driven initiative and is not officially affiliated with any university or educational institution.

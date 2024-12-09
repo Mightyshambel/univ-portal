@@ -1,0 +1,49 @@
+.content-section {
+    display: flex;
+    align-items: center; /* Centers items vertically in the container */
+    justify-content: flex-start; /* Aligns items to the start, removing space between */
+    height: 70vh;
+    background-color: white; /* Light green background */
+    padding: 100px 10px;
+}
+button {
+    font-size: 16px; // Set to your preferred size
+    color: white; // White text color
+    background-color: #C1DDA0;
+    padding: 10px 20px; // Padding for button
+    margin: 20px 0px;
+    border: none; // No border
+    cursor: pointer;
+    transition: background-color 0.3s ease; // Smooth transition for hover effect
+    text-align: center;
+    text-decoration: none; // Remove underline from links if used
+    display: inline-block;
+    border-radius: 5px; // Rounded corners
+  }
+
+.image-section {
+    margin-left:100px;
+    padding: 40px;
+    width: 50%; /* Set explicit width */
+    background: url('/assets/homepage.jpg') no-repeat center center / cover;
+    height: 60%; /* Full height of the container */
+}
+
+.text-section {
+    width: 60%; /* Set explicit width */
+    padding: 40px;
+    text-align: left;
+    h1 {
+        font-size: 2rem;
+        color: #333;
+    }
+
+    p {
+        font-size: 1rem;
+        color: #666;
+    }
+}
+h3{
+    width:70%;
+    font-weight: lighter;
+}
